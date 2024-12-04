@@ -1,7 +1,8 @@
+
+
 // Get all the input fields with the class 'code'
 const inputs = document.querySelectorAll('.code');
 
-// Add event listener for forward typing
 inputs.forEach((input, index) => {
   // Add event listener for when a user types a number
   input.addEventListener('input', function (e) {
@@ -25,5 +26,3 @@ inputs.forEach((input, index) => {
 
 // Focus on the first input initially
 inputs[0].focus();
-
-

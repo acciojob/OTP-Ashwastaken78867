@@ -1,5 +1,3 @@
-
-
 // Get all the input fields with the class 'code'
 const inputs = document.querySelectorAll('.code');
 
@@ -26,3 +24,4 @@ inputs.forEach((input, index) => {
 
 // Focus on the first input initially
 inputs[0].focus();
+

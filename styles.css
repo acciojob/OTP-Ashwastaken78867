@@ -1,4 +1,4 @@
-/*  your css code here. If applicable */
+/* Styling the body */
 body {
   font-family: Arial, sans-serif;
   display: flex;
@@ -10,23 +10,27 @@ body {
   text-align: center;
 }
 
+/* Styling the verification heading */
 #verification_heading {
   font-size: 2rem;
   margin-bottom: 0.5rem;
 }
 
+/* Styling the subheading */
 #verification_subtext {
   font-size: 1.2rem;
   color: #666;
   margin-bottom: 1.5rem;
 }
 
+/* Code input container styling */
 .code-container {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
+/* Styling the code input fields */
 .code {
   width: 40px;
   height: 40px;
@@ -37,7 +41,9 @@ body {
   outline: none;
 }
 
+/* Focus state styling */
 .code:focus {
   border-color: #4f94e7;
 }
+
 
